@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace FLA_Project
 {
-    
+
     public partial class Main : Form
     {
         CFG MainCFG = new CFG();
-        
+
         public Main()
         {
             InitializeComponent();
@@ -28,14 +28,14 @@ namespace FLA_Project
                 S = S + " -> ";
                 foreach (Rule r in v.Rules)
                 {
-                        r.updateR();
-                        S = S+ r.R + " | ";
+                    r.updateR();
+                    S = S + r.R + " | ";
                 }
-                S=S.Remove(S.Length - 2);
+                S = S.Remove(S.Length - 2);
                 listBox1.Items.Add(S);
             }
         }
-        
+
 
         private void LogoutBtn_Click(object sender, EventArgs e)
         {
@@ -65,11 +65,11 @@ namespace FLA_Project
             {
                 MyRule.Rlist.Add(c.ToString());
             }
-            
+
             MyVar.Add_Rule(MyRule);
-            foreach(Var v in MainCFG.Grammer)
+            foreach (Var v in MainCFG.Grammer)
             {
-                if(v.V == MyVar.V)
+                if (v.V == MyVar.V)
                 {
                     v.Add_Rule(MyRule);
                     updateListBox();
@@ -130,10 +130,49 @@ namespace FLA_Project
         }
 
         private void button9_Click(object sender, EventArgs e)
-        { 
+        {
             MainCFG.Remove_Landa();
             MainCFG.Remove_Unit();
             MainCFG.Remove_LR();
+            MainCFG.TartibIJ();
+            MainCFG.Remove_LR();
+            MainCFG.Geribach();
+
+            updateListBox();
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void ParsTbox_TextChanged(object sender, EventArgs e)
+        {
+            MainCFG.Remove_Landa();
+            MainCFG.Remove_Unit();
+            MainCFG.Chomsky();
+            updateListBox();
+            if (ParsTbox.Text == "")
+            {
+                ParsTbox.BackColor = System.Drawing.Color.White;
+                return;
+            }
+            if (MainCFG.CYK(ParsTbox.Text))
+            {
+                ParsTbox.BackColor = System.Drawing.Color.Green;
+            }
+            else
+            {
+                ParsTbox.BackColor = System.Drawing.Color.Red;
+            }
+        }
+
+        private void button10_Click_1(object sender, EventArgs e)
+        {
+            MainCFG = new CFG();
+            VarSelect.Items.Clear();
             updateListBox();
 
         }

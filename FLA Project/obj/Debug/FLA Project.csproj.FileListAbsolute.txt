@@ -15,3 +15,12 @@ C:\Users\aqhra\Desktop\FLA Project\FLA Project\obj\Debug\FLA Project.csprojResol
 C:\Users\aqhra\Desktop\FLA Project\FLA Project\obj\Debug\FLA_Project.Main.resources
 C:\Users\aqhra\Desktop\FLA Project\FLA Project\obj\Debug\FLA_Project.Properties.Resources.resources
 C:\Users\aqhra\Desktop\FLA Project\FLA Project\obj\Debug\FLA Project.csproj.GenerateResource.Cache
+D:\University\Term 6\FLA Project\FLA Project\bin\Debug\FLA Project.exe.config
+D:\University\Term 6\FLA Project\FLA Project\obj\Debug\FLA Project.exe
+D:\University\Term 6\FLA Project\FLA Project\obj\Debug\FLA Project.pdb
+D:\University\Term 6\FLA Project\FLA Project\bin\Debug\FLA Project.exe
+D:\University\Term 6\FLA Project\FLA Project\bin\Debug\FLA Project.pdb
+D:\University\Term 6\FLA Project\FLA Project\obj\Debug\FLA Project.csprojResolveAssemblyReference.cache
+D:\University\Term 6\FLA Project\FLA Project\obj\Debug\FLA_Project.Main.resources
+D:\University\Term 6\FLA Project\FLA Project\obj\Debug\FLA_Project.Properties.Resources.resources
+D:\University\Term 6\FLA Project\FLA Project\obj\Debug\FLA Project.csproj.GenerateResource.Cache

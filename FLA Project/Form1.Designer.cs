@@ -43,6 +43,8 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
+            this.ParsTbox = new System.Windows.Forms.TextBox();
+            this.button10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LogoutBtn
@@ -54,7 +56,7 @@
             this.LogoutBtn.FlatAppearance.BorderSize = 0;
             this.LogoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LogoutBtn.ForeColor = System.Drawing.Color.Transparent;
-            this.LogoutBtn.Location = new System.Drawing.Point(753, 635);
+            this.LogoutBtn.Location = new System.Drawing.Point(61, 604);
             this.LogoutBtn.Name = "LogoutBtn";
             this.LogoutBtn.Size = new System.Drawing.Size(188, 53);
             this.LogoutBtn.TabIndex = 12;
@@ -65,7 +67,7 @@
             // varTbox
             // 
             this.varTbox.Font = new System.Drawing.Font("Product Sans", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.varTbox.Location = new System.Drawing.Point(93, 251);
+            this.varTbox.Location = new System.Drawing.Point(96, 198);
             this.varTbox.Name = "varTbox";
             this.varTbox.Size = new System.Drawing.Size(124, 33);
             this.varTbox.TabIndex = 13;
@@ -80,7 +82,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(63, 309);
+            this.button1.Location = new System.Drawing.Point(60, 241);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(188, 53);
             this.button1.TabIndex = 14;
@@ -97,7 +99,7 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.Transparent;
-            this.button2.Location = new System.Drawing.Point(63, 595);
+            this.button2.Location = new System.Drawing.Point(60, 484);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(188, 53);
             this.button2.TabIndex = 15;
@@ -108,7 +110,7 @@
             // RuleTbox
             // 
             this.RuleTbox.Font = new System.Drawing.Font("Product Sans", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RuleTbox.Location = new System.Drawing.Point(169, 525);
+            this.RuleTbox.Location = new System.Drawing.Point(170, 423);
             this.RuleTbox.Name = "RuleTbox";
             this.RuleTbox.Size = new System.Drawing.Size(132, 33);
             this.RuleTbox.TabIndex = 16;
@@ -116,12 +118,12 @@
             // 
             // listBox1
             // 
-            this.listBox1.Font = new System.Drawing.Font("Product Sans", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox1.Font = new System.Drawing.Font("Product Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 26;
-            this.listBox1.Location = new System.Drawing.Point(354, 172);
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(352, 152);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(317, 446);
+            this.listBox1.Size = new System.Drawing.Size(322, 444);
             this.listBox1.TabIndex = 18;
             // 
             // VarSelect
@@ -129,7 +131,7 @@
             this.VarSelect.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VarSelect.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VarSelect.FormattingEnabled = true;
-            this.VarSelect.Location = new System.Drawing.Point(8, 527);
+            this.VarSelect.Location = new System.Drawing.Point(12, 425);
             this.VarSelect.Name = "VarSelect";
             this.VarSelect.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.VarSelect.Size = new System.Drawing.Size(98, 30);
@@ -139,7 +141,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Sahel", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.button3.Location = new System.Drawing.Point(305, 525);
+            this.button3.Location = new System.Drawing.Point(306, 423);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(43, 33);
             this.button3.TabIndex = 20;
@@ -156,7 +158,7 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.Transparent;
-            this.button4.Location = new System.Drawing.Point(753, 206);
+            this.button4.Location = new System.Drawing.Point(766, 168);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(188, 53);
             this.button4.TabIndex = 21;
@@ -173,7 +175,7 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.Color.Transparent;
-            this.button5.Location = new System.Drawing.Point(753, 265);
+            this.button5.Location = new System.Drawing.Point(766, 222);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(188, 53);
             this.button5.TabIndex = 22;
@@ -190,7 +192,7 @@
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.ForeColor = System.Drawing.Color.Transparent;
-            this.button6.Location = new System.Drawing.Point(753, 324);
+            this.button6.Location = new System.Drawing.Point(766, 276);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(188, 53);
             this.button6.TabIndex = 23;
@@ -207,7 +209,7 @@
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.ForeColor = System.Drawing.Color.Transparent;
-            this.button7.Location = new System.Drawing.Point(753, 383);
+            this.button7.Location = new System.Drawing.Point(766, 330);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(188, 53);
             this.button7.TabIndex = 24;
@@ -224,7 +226,7 @@
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.ForeColor = System.Drawing.Color.Transparent;
-            this.button8.Location = new System.Drawing.Point(753, 478);
+            this.button8.Location = new System.Drawing.Point(766, 400);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(188, 53);
             this.button8.TabIndex = 25;
@@ -241,7 +243,7 @@
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.ForeColor = System.Drawing.Color.Transparent;
-            this.button9.Location = new System.Drawing.Point(753, 531);
+            this.button9.Location = new System.Drawing.Point(766, 452);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(188, 53);
             this.button9.TabIndex = 26;
@@ -249,12 +251,41 @@
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
+            // ParsTbox
+            // 
+            this.ParsTbox.Font = new System.Drawing.Font("Product Sans", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ParsTbox.ForeColor = System.Drawing.Color.White;
+            this.ParsTbox.Location = new System.Drawing.Point(738, 591);
+            this.ParsTbox.Name = "ParsTbox";
+            this.ParsTbox.Size = new System.Drawing.Size(254, 46);
+            this.ParsTbox.TabIndex = 27;
+            this.ParsTbox.TextChanged += new System.EventHandler(this.ParsTbox_TextChanged);
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Transparent;
+            this.button10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button10.BackgroundImage")));
+            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.ForeColor = System.Drawing.Color.Transparent;
+            this.button10.Location = new System.Drawing.Point(418, 610);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(188, 53);
+            this.button10.TabIndex = 28;
+            this.button10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click_1);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1024, 700);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.ParsTbox);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -295,6 +326,8 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.TextBox ParsTbox;
+        private System.Windows.Forms.Button button10;
     }
 }
 
